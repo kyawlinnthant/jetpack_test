@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+            android:icon="@drawable/ic_sport"
+            android:id="@+id/bottom_sport"
+            android:title="@string/bottom_sport"/>
+    <item
+            android:icon="@drawable/ic_technology"
+            android:id="@+id/bottom_technology"
+            android:title="@string/bottom_technology"/>
+
+</menu>

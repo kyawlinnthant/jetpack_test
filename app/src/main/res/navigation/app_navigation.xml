@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/app_navigation"
+            app:startDestination="@id/bottom_sport" android:label="Sport">
+
+    <fragment android:id="@+id/bottom_sport" android:name="com.kyawlinnthant.klt_jetpack.ui.SportFragment"
+              android:label="Sport">
+        <action android:id="@+id/action_bottom_sport_to_bottom_technology" app:destination="@id/bottom_technology"/>
+    </fragment>
+    <fragment android:id="@+id/bottom_technology" android:name="com.kyawlinnthant.klt_jetpack.ui.TechnologyFragment"
+              android:label="Technology">
+        <action android:id="@+id/action_bottom_technology_to_bottom_sport" app:destination="@id/bottom_sport"/>
+    </fragment>
+</navigation>
