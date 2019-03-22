@@ -4,11 +4,11 @@
             android:id="@+id/app_navigation"
             app:startDestination="@id/bottom_sport" android:label="Sport">
 
-    <fragment android:id="@+id/bottom_sport" android:name="com.kyawlinnthant.klt_jetpack.ui.SportFragment"
+    <fragment android:id="@+id/bottom_sport" android:name="com.kyawlinnthant.klt_jetpack.ui.sport.SportFragment"
               android:label="Sport">
         <action android:id="@+id/action_bottom_sport_to_bottom_technology" app:destination="@id/bottom_technology"/>
     </fragment>
-    <fragment android:id="@+id/bottom_technology" android:name="com.kyawlinnthant.klt_jetpack.ui.TechnologyFragment"
+    <fragment android:id="@+id/bottom_technology" android:name="com.kyawlinnthant.klt_jetpack.ui.technology.TechnologyFragment"
               android:label="Technology">
         <action android:id="@+id/action_bottom_technology_to_bottom_sport" app:destination="@id/bottom_sport"/>
     </fragment>
